@@ -17,6 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self setWindow:[[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds]];
+    UIStoryboard *main = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+    UIStoryboard *onboard = [UIStoryboard storyboardWithName:@"Onboard" bundle:nil];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    UIViewController *initialVC;
+    if ([defaults boolForKey:@"hasOnboarded"]) {
+        initialVC = [main instantiateViewControllerWithIdentifier:@"OverlayViewController"];
+    } else {
+        initialVC = [onboard instantiateViewControllerWithIdentifier:@"WelcomeViewController"];
+    }
+    [self.window setRootViewController:initialVC];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

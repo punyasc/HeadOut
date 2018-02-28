@@ -8,13 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		B51727E420368BE000243AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51727E320368BE000243AA5 /* AppDelegate.m */; };
-		B51727E720368BE000243AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51727E620368BE000243AA5 /* ViewController.m */; };
 		B51727EA20368BE000243AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51727E820368BE000243AA5 /* Main.storyboard */; };
 		B51727EC20368BE000243AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51727EB20368BE000243AA5 /* Assets.xcassets */; };
 		B51727EF20368BE000243AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51727ED20368BE000243AA5 /* LaunchScreen.storyboard */; };
 		B51727F220368BE000243AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51727F120368BE000243AA5 /* main.m */; };
 		B51727FC20368BE000243AA5 /* TimeToLeaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51727FB20368BE000243AA5 /* TimeToLeaveTests.m */; };
 		B517280720368BE000243AA5 /* TimeToLeaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B517280620368BE000243AA5 /* TimeToLeaveUITests.m */; };
+		B51728182036921C00243AA5 /* ETACell.m in Sources */ = {isa = PBXBuildFile; fileRef = B51728162036921C00243AA5 /* ETACell.m */; };
+		B51728192036921C00243AA5 /* ETACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51728172036921C00243AA5 /* ETACell.xib */; };
+		B517281D2036927A00243AA5 /* ModernView.m in Sources */ = {isa = PBXBuildFile; fileRef = B517281C2036927A00243AA5 /* ModernView.m */; };
+		B51728212036978C00243AA5 /* ETAItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B51728202036978C00243AA5 /* ETAItem.m */; };
+		B517282520369DEE00243AA5 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B517282420369DEE00243AA5 /* HomeTableViewController.m */; };
+		B51728282037815700243AA5 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B51728272037815700243AA5 /* AppConstants.m */; };
+		B517282B2037972600243AA5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B517282A2037972600243AA5 /* Home.storyboard */; };
+		B52DCBA7203E9B7400430051 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DCBA6203E9B7400430051 /* OverlayViewController.m */; };
+		B52DCBAB203F7EC200430051 /* BVReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DCBAA203F7EC200430051 /* BVReorderTableView.m */; };
+		B52DCBAF203FC24700430051 /* ActivityIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DCBAD203FC24700430051 /* ActivityIndicatorCell.m */; };
+		B52DCBB0203FC24700430051 /* ActivityIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52DCBAE203FC24700430051 /* ActivityIndicatorCell.xib */; };
+		B52DCBB3203FEC4F00430051 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DCBB2203FEC4F00430051 /* SettingsTableViewController.m */; };
+		B56F2E9C2040ACA7009D941A /* NavigationLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = B56F2E9B2040ACA7009D941A /* NavigationLauncher.m */; };
+		B56F2E9E2040B027009D941A /* AddPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F2E9D2040B027009D941A /* AddPlace.storyboard */; };
+		B5749A2C2037A1FB0018EC71 /* CornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A2B2037A1FB0018EC71 /* CornerView.m */; };
+		B5749A2F2037B7330018EC71 /* AddPlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A2E2037B7330018EC71 /* AddPlaceTableViewController.m */; };
+		B5749A322037BE610018EC71 /* AddModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A312037BE610018EC71 /* AddModalViewController.m */; };
+		B5749A3520390FCD0018EC71 /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A3420390FCC0018EC71 /* LocationMapViewController.m */; };
+		B5749A3820390FF60018EC71 /* LocationSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A3720390FF60018EC71 /* LocationSearchTableViewController.m */; };
+		B5749A3B203A6E630018EC71 /* PlacesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5749A3A203A6E630018EC71 /* PlacesManager.m */; };
+		B5A96D5220451A0600243924 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A96D5120451A0600243924 /* Animator.m */; };
+		B5A96D562045406800243924 /* EmptyPlacesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A96D542045406800243924 /* EmptyPlacesCell.m */; };
+		B5A96D572045406800243924 /* EmptyPlacesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A96D552045406800243924 /* EmptyPlacesCell.xib */; };
+		B5A96D5920460D2600243924 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A96D5820460D2600243924 /* Settings.storyboard */; };
+		B5A96D5B204610E400243924 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A96D5A204610E400243924 /* Onboard.storyboard */; };
+		B5A96D5E2046380E00243924 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A96D5D2046380E00243924 /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +63,6 @@
 		B51727DF20368BE000243AA5 /* TimeToLeave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeToLeave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51727E220368BE000243AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B51727E320368BE000243AA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B51727E520368BE000243AA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B51727E620368BE000243AA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B51727E920368BE000243AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B51727EB20368BE000243AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51727EE20368BE000243AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,51 @@
 		B517280220368BE000243AA5 /* TimeToLeaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeToLeaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517280620368BE000243AA5 /* TimeToLeaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeToLeaveUITests.m; sourceTree = "<group>"; };
 		B517280820368BE000243AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51728152036921C00243AA5 /* ETACell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETACell.h; sourceTree = "<group>"; };
+		B51728162036921C00243AA5 /* ETACell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETACell.m; sourceTree = "<group>"; };
+		B51728172036921C00243AA5 /* ETACell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ETACell.xib; sourceTree = "<group>"; };
+		B517281B2036927A00243AA5 /* ModernView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModernView.h; sourceTree = "<group>"; };
+		B517281C2036927A00243AA5 /* ModernView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModernView.m; sourceTree = "<group>"; };
+		B517281F2036978C00243AA5 /* ETAItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAItem.h; sourceTree = "<group>"; };
+		B51728202036978C00243AA5 /* ETAItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAItem.m; sourceTree = "<group>"; };
+		B517282320369DEE00243AA5 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		B517282420369DEE00243AA5 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		B51728262037815700243AA5 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		B51728272037815700243AA5 /* AppConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		B517282A2037972600243AA5 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B52DCBA5203E9B7400430051 /* OverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		B52DCBA6203E9B7400430051 /* OverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		B52DCBA9203F7EC200430051 /* BVReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVReorderTableView.h; sourceTree = "<group>"; };
+		B52DCBAA203F7EC200430051 /* BVReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVReorderTableView.m; sourceTree = "<group>"; };
+		B52DCBAC203FC24700430051 /* ActivityIndicatorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorCell.h; sourceTree = "<group>"; };
+		B52DCBAD203FC24700430051 /* ActivityIndicatorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorCell.m; sourceTree = "<group>"; };
+		B52DCBAE203FC24700430051 /* ActivityIndicatorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityIndicatorCell.xib; sourceTree = "<group>"; };
+		B52DCBB1203FEC4F00430051 /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		B52DCBB2203FEC4F00430051 /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		B56F2E9A2040ACA7009D941A /* NavigationLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationLauncher.h; sourceTree = "<group>"; };
+		B56F2E9B2040ACA7009D941A /* NavigationLauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationLauncher.m; sourceTree = "<group>"; };
+		B56F2E9D2040B027009D941A /* AddPlace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPlace.storyboard; sourceTree = "<group>"; };
+		B5749A2A2037A1FB0018EC71 /* CornerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerView.h; sourceTree = "<group>"; };
+		B5749A2B2037A1FB0018EC71 /* CornerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerView.m; sourceTree = "<group>"; };
+		B5749A2D2037B7330018EC71 /* AddPlaceTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPlaceTableViewController.h; sourceTree = "<group>"; };
+		B5749A2E2037B7330018EC71 /* AddPlaceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPlaceTableViewController.m; sourceTree = "<group>"; };
+		B5749A302037BE610018EC71 /* AddModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddModalViewController.h; sourceTree = "<group>"; };
+		B5749A312037BE610018EC71 /* AddModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddModalViewController.m; sourceTree = "<group>"; };
+		B5749A3320390FCC0018EC71 /* LocationMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationMapViewController.h; sourceTree = "<group>"; };
+		B5749A3420390FCC0018EC71 /* LocationMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationMapViewController.m; sourceTree = "<group>"; };
+		B5749A3620390FF60018EC71 /* LocationSearchTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationSearchTableViewController.h; sourceTree = "<group>"; };
+		B5749A3720390FF60018EC71 /* LocationSearchTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationSearchTableViewController.m; sourceTree = "<group>"; };
+		B5749A39203A6E630018EC71 /* PlacesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesManager.h; sourceTree = "<group>"; };
+		B5749A3A203A6E630018EC71 /* PlacesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesManager.m; sourceTree = "<group>"; };
+		B5A96D5020451A0600243924 /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		B5A96D5120451A0600243924 /* Animator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		B5A96D532045406800243924 /* EmptyPlacesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyPlacesCell.h; sourceTree = "<group>"; };
+		B5A96D542045406800243924 /* EmptyPlacesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyPlacesCell.m; sourceTree = "<group>"; };
+		B5A96D552045406800243924 /* EmptyPlacesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyPlacesCell.xib; sourceTree = "<group>"; };
+		B5A96D5820460D2600243924 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		B5A96D5A204610E400243924 /* Onboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		B5A96D5C2046380E00243924 /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B5A96D5D2046380E00243924 /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +169,13 @@
 		B51727E120368BE000243AA5 /* TimeToLeave */ = {
 			isa = PBXGroup;
 			children = (
+				B5172829203796F200243AA5 /* Storyboards */,
+				B517282220369DDC00243AA5 /* View Controllers */,
+				B517281E2036976900243AA5 /* Models */,
+				B517281A2036922C00243AA5 /* Views */,
+				B5172814203691FC00243AA5 /* Cells */,
 				B51727E220368BE000243AA5 /* AppDelegate.h */,
 				B51727E320368BE000243AA5 /* AppDelegate.m */,
-				B51727E520368BE000243AA5 /* ViewController.h */,
-				B51727E620368BE000243AA5 /* ViewController.m */,
 				B51727E820368BE000243AA5 /* Main.storyboard */,
 				B51727EB20368BE000243AA5 /* Assets.xcassets */,
 				B51727ED20368BE000243AA5 /* LaunchScreen.storyboard */,
@@ -130,6 +201,86 @@
 				B517280820368BE000243AA5 /* Info.plist */,
 			);
 			path = TimeToLeaveUITests;
+			sourceTree = "<group>";
+		};
+		B5172814203691FC00243AA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B51728152036921C00243AA5 /* ETACell.h */,
+				B51728162036921C00243AA5 /* ETACell.m */,
+				B51728172036921C00243AA5 /* ETACell.xib */,
+				B52DCBAC203FC24700430051 /* ActivityIndicatorCell.h */,
+				B52DCBAD203FC24700430051 /* ActivityIndicatorCell.m */,
+				B52DCBAE203FC24700430051 /* ActivityIndicatorCell.xib */,
+				B5A96D532045406800243924 /* EmptyPlacesCell.h */,
+				B5A96D542045406800243924 /* EmptyPlacesCell.m */,
+				B5A96D552045406800243924 /* EmptyPlacesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B517281A2036922C00243AA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B52DCBA9203F7EC200430051 /* BVReorderTableView.h */,
+				B52DCBAA203F7EC200430051 /* BVReorderTableView.m */,
+				B517281B2036927A00243AA5 /* ModernView.h */,
+				B517281C2036927A00243AA5 /* ModernView.m */,
+				B5749A2A2037A1FB0018EC71 /* CornerView.h */,
+				B5749A2B2037A1FB0018EC71 /* CornerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B517281E2036976900243AA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B517281F2036978C00243AA5 /* ETAItem.h */,
+				B51728202036978C00243AA5 /* ETAItem.m */,
+				B51728262037815700243AA5 /* AppConstants.h */,
+				B51728272037815700243AA5 /* AppConstants.m */,
+				B5749A39203A6E630018EC71 /* PlacesManager.h */,
+				B5749A3A203A6E630018EC71 /* PlacesManager.m */,
+				B56F2E9A2040ACA7009D941A /* NavigationLauncher.h */,
+				B56F2E9B2040ACA7009D941A /* NavigationLauncher.m */,
+				B5A96D5020451A0600243924 /* Animator.h */,
+				B5A96D5120451A0600243924 /* Animator.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B517282220369DDC00243AA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B517282320369DEE00243AA5 /* HomeTableViewController.h */,
+				B517282420369DEE00243AA5 /* HomeTableViewController.m */,
+				B5749A302037BE610018EC71 /* AddModalViewController.h */,
+				B5749A312037BE610018EC71 /* AddModalViewController.m */,
+				B5749A2D2037B7330018EC71 /* AddPlaceTableViewController.h */,
+				B5749A2E2037B7330018EC71 /* AddPlaceTableViewController.m */,
+				B5749A3320390FCC0018EC71 /* LocationMapViewController.h */,
+				B5749A3420390FCC0018EC71 /* LocationMapViewController.m */,
+				B5749A3620390FF60018EC71 /* LocationSearchTableViewController.h */,
+				B5749A3720390FF60018EC71 /* LocationSearchTableViewController.m */,
+				B52DCBA5203E9B7400430051 /* OverlayViewController.h */,
+				B52DCBA6203E9B7400430051 /* OverlayViewController.m */,
+				B52DCBB1203FEC4F00430051 /* SettingsTableViewController.h */,
+				B52DCBB2203FEC4F00430051 /* SettingsTableViewController.m */,
+				B5A96D5C2046380E00243924 /* WelcomeViewController.h */,
+				B5A96D5D2046380E00243924 /* WelcomeViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B5172829203796F200243AA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B517282A2037972600243AA5 /* Home.storyboard */,
+				B5A96D5820460D2600243924 /* Settings.storyboard */,
+				B56F2E9D2040B027009D941A /* AddPlace.storyboard */,
+				B5A96D5A204610E400243924 /* Onboard.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +391,13 @@
 			files = (
 				B51727EF20368BE000243AA5 /* LaunchScreen.storyboard in Resources */,
 				B51727EC20368BE000243AA5 /* Assets.xcassets in Resources */,
+				B56F2E9E2040B027009D941A /* AddPlace.storyboard in Resources */,
+				B51728192036921C00243AA5 /* ETACell.xib in Resources */,
+				B52DCBB0203FC24700430051 /* ActivityIndicatorCell.xib in Resources */,
+				B517282B2037972600243AA5 /* Home.storyboard in Resources */,
+				B5A96D5920460D2600243924 /* Settings.storyboard in Resources */,
+				B5A96D572045406800243924 /* EmptyPlacesCell.xib in Resources */,
+				B5A96D5B204610E400243924 /* Onboard.storyboard in Resources */,
 				B51727EA20368BE000243AA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +423,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51727E720368BE000243AA5 /* ViewController.m in Sources */,
+				B52DCBAB203F7EC200430051 /* BVReorderTableView.m in Sources */,
+				B5749A322037BE610018EC71 /* AddModalViewController.m in Sources */,
+				B5749A2C2037A1FB0018EC71 /* CornerView.m in Sources */,
+				B51728212036978C00243AA5 /* ETAItem.m in Sources */,
 				B51727F220368BE000243AA5 /* main.m in Sources */,
+				B5A96D5E2046380E00243924 /* WelcomeViewController.m in Sources */,
+				B517282520369DEE00243AA5 /* HomeTableViewController.m in Sources */,
+				B5A96D5220451A0600243924 /* Animator.m in Sources */,
+				B51728182036921C00243AA5 /* ETACell.m in Sources */,
+				B56F2E9C2040ACA7009D941A /* NavigationLauncher.m in Sources */,
+				B5749A3B203A6E630018EC71 /* PlacesManager.m in Sources */,
 				B51727E420368BE000243AA5 /* AppDelegate.m in Sources */,
+				B5749A3520390FCD0018EC71 /* LocationMapViewController.m in Sources */,
+				B52DCBA7203E9B7400430051 /* OverlayViewController.m in Sources */,
+				B5749A2F2037B7330018EC71 /* AddPlaceTableViewController.m in Sources */,
+				B52DCBAF203FC24700430051 /* ActivityIndicatorCell.m in Sources */,
+				B52DCBB3203FEC4F00430051 /* SettingsTableViewController.m in Sources */,
+				B517281D2036927A00243AA5 /* ModernView.m in Sources */,
+				B51728282037815700243AA5 /* AppConstants.m in Sources */,
+				B5749A3820390FF60018EC71 /* LocationSearchTableViewController.m in Sources */,
+				B5A96D562045406800243924 /* EmptyPlacesCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZV9JB2U7V;
 				INFOPLIST_FILE = TimeToLeave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = punya.TimeToLeave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +624,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZV9JB2U7V;
 				INFOPLIST_FILE = TimeToLeave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = punya.TimeToLeave;
 				PRODUCT_NAME = "$(TARGET_NAME)";

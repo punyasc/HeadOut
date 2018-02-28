@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uB0-PX-gsl">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="mKG-t1-CPi">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="uB0-PX-gsl" customClass="WelcomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Nw-ZY-NVL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashicon" translatesAutoresizingMaskIntoConstraints="NO" id="B6F-1I-6Fa">
+                                <rect key="frame" x="147" y="124" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="fkT-el-0Da"/>
+                                    <constraint firstAttribute="width" constant="80" id="t8d-Zu-EDQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HeadOut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfe-jI-hr3">
+                                <rect key="frame" x="112" y="234" width="151" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quickly find out how long it'll take to drive or walk to your favorite places." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqm-Ip-3qZ">
+                                <rect key="frame" x="30" y="297" width="315" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZX-oI-22W">
+                                <rect key="frame" x="30" y="358" width="315" height="61"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="To get started, press ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="+">
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" on the next screen to add your most commonly-visited places, like ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="home">
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" or ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="work">
+                                        <attributes>
+                                            <color key="NSColor" red="0.17254901960784313" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=".">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXB-TK-b5p" customClass="ModernView">
+                                <rect key="frame" x="20" y="678" width="335" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECY-EZ-Im8">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="60"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Get Started">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startTapped:" destination="uB0-PX-gsl" eventType="touchUpInside" id="CQ8-JB-w03"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ECY-EZ-Im8" firstAttribute="top" secondItem="SXB-TK-b5p" secondAttribute="top" id="6cP-nU-H4M"/>
+                                    <constraint firstAttribute="trailing" secondItem="ECY-EZ-Im8" secondAttribute="trailing" id="GmL-X8-zz7"/>
+                                    <constraint firstAttribute="height" constant="60" id="lov-kT-r00"/>
+                                    <constraint firstAttribute="bottom" secondItem="ECY-EZ-Im8" secondAttribute="bottom" id="qNC-xk-vma"/>
+                                    <constraint firstItem="ECY-EZ-Im8" firstAttribute="leading" secondItem="SXB-TK-b5p" secondAttribute="leading" id="urg-Hp-3pR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.17254901960784313" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="0.17254901960784313" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowY">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowX">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bfe-jI-hr3" firstAttribute="top" secondItem="B6F-1I-6Fa" secondAttribute="bottom" constant="30" id="0K3-OG-T8g"/>
+                            <constraint firstItem="Bfe-jI-hr3" firstAttribute="centerX" secondItem="6Nw-ZY-NVL" secondAttribute="centerX" id="7JC-96-4rE"/>
+                            <constraint firstItem="lqm-Ip-3qZ" firstAttribute="top" secondItem="Bfe-jI-hr3" secondAttribute="bottom" constant="20" id="9Ww-AB-u8X"/>
+                            <constraint firstItem="B6F-1I-6Fa" firstAttribute="top" secondItem="Adc-96-6uM" secondAttribute="top" constant="80" id="9yB-r3-rpv"/>
+                            <constraint firstItem="Adc-96-6uM" firstAttribute="trailing" secondItem="SXB-TK-b5p" secondAttribute="trailing" constant="20" id="Fcv-Ye-JnB"/>
+                            <constraint firstItem="B6F-1I-6Fa" firstAttribute="centerX" secondItem="6Nw-ZY-NVL" secondAttribute="centerX" id="JYy-hc-l3C"/>
+                            <constraint firstItem="cZX-oI-22W" firstAttribute="leading" secondItem="Adc-96-6uM" secondAttribute="leading" constant="30" id="P6A-rI-I45"/>
+                            <constraint firstItem="Adc-96-6uM" firstAttribute="trailing" secondItem="lqm-Ip-3qZ" secondAttribute="trailing" constant="30" id="Vp1-k3-OMx"/>
+                            <constraint firstItem="Adc-96-6uM" firstAttribute="bottom" secondItem="SXB-TK-b5p" secondAttribute="bottom" constant="40" id="Xey-ed-yEd"/>
+                            <constraint firstItem="Adc-96-6uM" firstAttribute="trailing" secondItem="cZX-oI-22W" secondAttribute="trailing" constant="30" id="Xqg-dU-nPQ"/>
+                            <constraint firstItem="lqm-Ip-3qZ" firstAttribute="leading" secondItem="Adc-96-6uM" secondAttribute="leading" constant="30" id="hqm-I0-Spu"/>
+                            <constraint firstItem="SXB-TK-b5p" firstAttribute="leading" secondItem="Adc-96-6uM" secondAttribute="leading" constant="20" id="kqY-Kd-O4S"/>
+                            <constraint firstItem="cZX-oI-22W" firstAttribute="top" secondItem="lqm-Ip-3qZ" secondAttribute="bottom" constant="20" id="zdu-L6-jPf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Adc-96-6uM"/>
+                    </view>
+                    <connections>
+                        <segue destination="i4E-95-t5J" kind="show" identifier="showHome" id="lE4-aW-M17"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8FJ-Y3-J8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18.399999999999999" y="30.295566502463057"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="m0F-uR-eX9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="i4E-95-t5J" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWA-sZ-ufn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="29"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashicon" width="333" height="333"/>
+    </resources>
+</document>
